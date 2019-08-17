@@ -1,0 +1,22 @@
+{
+    "python.pythonPath": "env\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 30,
+            "database": "test.db",
+            "dialect": "MySQL",
+            "name": "testbb",
+            "password": "jeff",
+            "port": 3306,
+            "server": "127.0.0.1",
+            "username": "tianjeff"
+        },
+        {
+            "database": ".\\test.db",
+            "dialect": "SQLite",
+            "name": "tianbb"
+        }
+    ]
+}
